@@ -1,6 +1,6 @@
 # jquery-render-tweets
 
-Renders tweets from Twitter's JSON to HTML. This plugin does not communicate with Twitter's API directly, but instead provides a flexible way to specify a custom endpoint or execute a custom AJAX request.
+Renders tweets from Twitter's API to HTML. This plugin does not communicate with Twitter's API directly, but instead provides a flexible way to specify a custom endpoint or execute a custom AJAX request.
 
 It is recommended to use a server-side cache when requesting tweets to help prevent going over Twitter's [rate limit](https://dev.twitter.com/docs/rate-limiting/1.1). See [connect-user-tweets](https://github.com/posco2k8/connect-user-tweets) for a Node.js based solution.
 
@@ -13,8 +13,14 @@ This plugin is offered as a Bower package for convenience:
 You can then include the plugin in your HTML:
 
 ```html
-<script src="/bower_components/jquery/jquery.min.js">
-<script src="/bower_components/jquery-render-tweets/jquery.render-tweets.min.js">
+<script src="/bower_components/jquery/jquery.js">
+<script src="/bower_components/jquery-render-tweets/lib/jquery.render-tweets.js">
+```
+
+A minified version of the plugin is available here:
+
+```html
+<script src="/bower_components/jquery-render-tweets/dist/jquery.render-tweets.min.js">
 ```
 
 ## Usage
@@ -32,13 +38,14 @@ $(function () {
 
 ## Reference
 
-# Methods
+### Methods
 
-- _render_: Render the tweets into the attached DOM element.
-- _refresh_: Fetch the tweets using the `url` setting and then call `render`
+- __render__: Render the tweets into the attached DOM element.
+- __refresh__: Fetch the tweets using the `url` setting and then call `render`
+- __remove__: Destroys the plugin data.
 - `$.renderTweets.parseTweet`: A utility method to parse a tweet and turn @names, #tags, and links into HTML. This can be used inside of template helpers. 
 
-# Events
+### Events
 
 All events are triggered on the attached DOM element:
 
@@ -53,14 +60,14 @@ $('body')
     });
 ```
 
-- _render_: Sent right before the rendered HTML is attached to the DOM. The rendered HTML as a jQuery object is passed as a parameter.
-- _renderCompleted_: Sent after the rendered HTML has been attached to the DOM.
-- _request_: Sent when the AJAX request for tweets has been made. The jQuery `$.Deferred` object from the AJAX call is passed as a parameter.
-- _requestCompleted_: Sent when the AJAX request completes successfully. The data returned from the request is given as a parameter. 
+- __render__: Triggered right before the rendered HTML is attached to the DOM. The rendered HTML wrapped in a jQuery object is passed as a parameter.
+- __renderCompleted__: Triggered after the rendered HTML has been attached to the DOM.
+- __request__: Triggered when the AJAX request for tweets has been made. The jQuery `$.Deferred` object from the AJAX call is passed as a parameter.
+- __requestCompleted__: Triggered when the AJAX request completes successfully. The data returned from the request is given as a parameter. 
 
-## Examples
+### Examples
 
-Using a URL to get tweets:
+Using an URL to get tweets:
 
 ```javascript
 $(function () {
