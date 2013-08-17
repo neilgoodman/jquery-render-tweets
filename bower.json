@@ -1,0 +1,23 @@
+{
+  "name": "jquery-render-tweets",
+  "version": "0.1.0",
+  "description": "A jQuery plugin that renders tweets in Twitter API JSON format to HTML.",
+  "author": {
+    "name": "Neil Goodman",
+    "homepage": "http://neilgoodman.net"
+  },
+  "keywords": [
+    "tweet",
+    "jquery",
+    "twitter"
+  ],
+  "homepage": "https://github.com/posco2k8/jquery-render-tweets",
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/posco2k8/jquery-render-tweets/blob/master/LICENSE"
+  },
+  "main": "lib/jquery.render-tweets.js",
+  "dependencies": {
+    "jquery": "~1.10.2"
+  }
+}
