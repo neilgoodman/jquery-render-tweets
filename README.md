@@ -4,6 +4,10 @@ Renders tweets from Twitter's API to HTML. This plugin does not communicate with
 
 It is recommended to use a server-side cache when requesting tweets to help prevent going over Twitter's [rate limit](https://dev.twitter.com/docs/rate-limiting/1.1). See [connect-user-tweets](https://github.com/posco2k8/connect-user-tweets) for a Node.js based solution.
 
+## Example
+
+Visit [http://neilgoodman.net](http://neilgoodman.net) to see an example of this plugin in use.
+
 ## Install
 
 This plugin is offered as a Bower package for convenience:
