@@ -1,6 +1,6 @@
 # jquery-render-tweets
 
-Renders tweets from Twitter's API JSON response to HTML. This plugin does not communicate with Twitter's API directly, but instead provides a flexible way to specify a custom endpoint or execute a custom AJAX request.
+Renders tweets from Twitter's JSON to HTML. This plugin does not communicate with Twitter's API directly, but instead provides a flexible way to specify a custom endpoint or execute a custom AJAX request.
 
 It is recommended to use a server-side cache when requesting tweets to help prevent going over Twitter's [rate limit](https://dev.twitter.com/docs/rate-limiting/1.1). See [connect-user-tweets](https://github.com/posco2k8/connect-user-tweets) for a Node.js based solution.
 
@@ -29,6 +29,33 @@ $(function () {
     });
 });
 ```
+
+## Reference
+
+# Methods
+
+- _render_: Render the tweets into the attached DOM element.
+- _refresh_: Fetch the tweets using the `url` setting and then call `render`
+
+# Events
+
+All events are triggered on the attached DOM element:
+
+```javascript
+$('body')
+    .renderTweets({ url: '/tweets' })
+    .on('render', function (event, data) {
+        // Awesome handler.
+    })
+    .on('renderCompleted', function (event) {
+        // Even more awesome handler.
+    });
+```
+
+- _render_: Sent right before the rendered HTML is attached to the DOM. The rendered HTML as a jQuery object is passed as a parameter.
+- _renderCompleted_: Sent after the rendered HTML has been attached to the DOM.
+- _request_: Sent when the AJAX request for tweets has been made. The jQuery `$.Deferred` object from the AJAX call is passed as a parameter.
+- _requestCompleted_: Sent when the AJAX request completes successfully. The data returned from the request is given as a parameter. 
 
 ## Examples
 
@@ -97,7 +124,7 @@ Manually refresh and render:
 
 ```javascript
 $(function () {
-    $('body').renderTweets('render');
+    $('body').renderTweets('refresh');
 });
 ```
 
