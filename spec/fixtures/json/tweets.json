@@ -1,0 +1,301 @@
+[
+    {
+        "created_at": "Tue Aug 13 22:58:53 +0000 2013",
+        "id": 367420017102426100,
+        "id_str": "367420017102426113",
+        "text": "RT @slashdot: How Java 8’s Project Lambda could change your coding (SlashBI) https://t.co/6BMlhFvQtZ test@email.com",
+        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+        "truncated": false,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 16987610,
+            "id_str": "16987610",
+            "name": "Neil Goodman",
+            "screen_name": "posco2k8",
+            "location": "Madison, WI",
+            "description": "I am currently a Software Design Engineer at @SonicFoundry. I primarily develop front-end web applications and Android apps in my spare time.",
+            "url": "http://t.co/7BJpqB38iU",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "http://t.co/7BJpqB38iU",
+                            "expanded_url": "http://neilgoodman.net",
+                            "display_url": "neilgoodman.net",
+                            "indices": [
+                                0,
+                                22
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 176,
+            "friends_count": 109,
+            "listed_count": 12,
+            "created_at": "Sun Oct 26 23:02:44 +0000 2008",
+            "favourites_count": 0,
+            "utc_offset": -18000,
+            "time_zone": "Central Time (US & Canada)",
+            "geo_enabled": true,
+            "verified": false,
+            "statuses_count": 1368,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "profile_background_color": "363533",
+            "profile_background_image_url": "http://a0.twimg.com/profile_background_images/391432877/bg_body.png",
+            "profile_background_image_url_https": "https://si0.twimg.com/profile_background_images/391432877/bg_body.png",
+            "profile_background_tile": true,
+            "profile_image_url": "http://a0.twimg.com/profile_images/2655121544/a7b5ee123d626e632f1412da6f938a08_normal.jpeg",
+            "profile_image_url_https": "https://si0.twimg.com/profile_images/2655121544/a7b5ee123d626e632f1412da6f938a08_normal.jpeg",
+            "profile_link_color": "2D75B9",
+            "profile_sidebar_border_color": "FFFFFF",
+            "profile_sidebar_fill_color": "FFFFFF",
+            "profile_text_color": "000000",
+            "profile_use_background_image": true,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "retweeted_status": {
+            "created_at": "Tue Aug 13 21:09:14 +0000 2013",
+            "id": 367392422889680900,
+            "id_str": "367392422889680897",
+            "text": "How Java 8’s Project Lambda could change your coding (SlashBI) http://t.co/6BMlhFvQtZ",
+            "source": "web",
+            "truncated": false,
+            "in_reply_to_status_id": null,
+            "in_reply_to_status_id_str": null,
+            "in_reply_to_user_id": null,
+            "in_reply_to_user_id_str": null,
+            "in_reply_to_screen_name": null,
+            "user": {
+                "id": 1068831,
+                "id_str": "1068831",
+                "name": "Slashdot",
+                "screen_name": "slashdot",
+                "location": "San Francisco",
+                "description": "Slashdot News Feed. News for Nerds, Stuff that Matters",
+                "url": "http://t.co/Tg2QhysoXr",
+                "entities": {
+                    "url": {
+                        "urls": [
+                            {
+                                "url": "http://t.co/Tg2QhysoXr",
+                                "expanded_url": "http://slashdot.org/",
+                                "display_url": "slashdot.org",
+                                "indices": [
+                                    0,
+                                    22
+                                ]
+                            }
+                        ]
+                    },
+                    "description": {
+                        "urls": []
+                    }
+                },
+                "protected": false,
+                "followers_count": 117487,
+                "friends_count": 115,
+                "listed_count": 9812,
+                "created_at": "Tue Mar 13 04:57:07 +0000 2007",
+                "favourites_count": 28,
+                "utc_offset": -25200,
+                "time_zone": "Pacific Time (US & Canada)",
+                "geo_enabled": false,
+                "verified": true,
+                "statuses_count": 46960,
+                "lang": "en",
+                "contributors_enabled": false,
+                "is_translator": false,
+                "profile_background_color": "006666",
+                "profile_background_image_url": "http://a0.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_image_url_https": "https://si0.twimg.com/images/themes/theme1/bg.png",
+                "profile_background_tile": false,
+                "profile_image_url": "http://a0.twimg.com/profile_images/1099260418/sd_badge_64_s_normal.png",
+                "profile_image_url_https": "https://si0.twimg.com/profile_images/1099260418/sd_badge_64_s_normal.png",
+                "profile_link_color": "006666",
+                "profile_sidebar_border_color": "DDDDDD",
+                "profile_sidebar_fill_color": "EEEEEE",
+                "profile_text_color": "000000",
+                "profile_use_background_image": false,
+                "default_profile": false,
+                "default_profile_image": false,
+                "following": null,
+                "follow_request_sent": false,
+                "notifications": null
+            },
+            "geo": null,
+            "coordinates": null,
+            "place": null,
+            "contributors": null,
+            "retweet_count": 10,
+            "favorite_count": 17,
+            "entities": {
+                "hashtags": [],
+                "symbols": [],
+                "urls": [
+                    {
+                        "url": "http://t.co/6BMlhFvQtZ",
+                        "expanded_url": "http://slashdot.org/topic/bi/how-java-8s-project-lambda-could-change-your-coding/",
+                        "display_url": "slashdot.org/topic/bi/how-j…",
+                        "indices": [
+                            63,
+                            85
+                        ]
+                    }
+                ],
+                "user_mentions": []
+            },
+            "favorited": false,
+            "retweeted": false,
+            "possibly_sensitive": false,
+            "lang": "en"
+        },
+        "retweet_count": 10,
+        "favorite_count": 0,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "urls": [
+                {
+                    "url": "http://t.co/6BMlhFvQtZ",
+                    "expanded_url": "http://slashdot.org/topic/bi/how-java-8s-project-lambda-could-change-your-coding/",
+                    "display_url": "slashdot.org/topic/bi/how-j…",
+                    "indices": [
+                        77,
+                        99
+                    ]
+                }
+            ],
+            "user_mentions": [
+                {
+                    "screen_name": "slashdot",
+                    "name": "Slashdot",
+                    "id": 1068831,
+                    "id_str": "1068831",
+                    "indices": [
+                        3,
+                        12
+                    ]
+                }
+            ]
+        },
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+    },
+    {
+        "created_at": "Tue Aug 13 03:31:02 +0000 2013",
+        "id": 367126121730822140,
+        "id_str": "367126121730822145",
+        "text": "New #blog #post: connect-user-tweets Released on NPM http://t.co/Y7wey0TPkl",
+        "source": "<a href=\"http://www.apple.com/\" rel=\"nofollow\">OS X</a>",
+        "truncated": false,
+        "in_reply_to_status_id": null,
+        "in_reply_to_status_id_str": null,
+        "in_reply_to_user_id": null,
+        "in_reply_to_user_id_str": null,
+        "in_reply_to_screen_name": null,
+        "user": {
+            "id": 16987610,
+            "id_str": "16987610",
+            "name": "Neil Goodman",
+            "screen_name": "posco2k8",
+            "location": "Madison, WI",
+            "description": "I am currently a Software Design Engineer at @SonicFoundry. I primarily develop front-end web applications and Android apps in my spare time.",
+            "url": "http://t.co/7BJpqB38iU",
+            "entities": {
+                "url": {
+                    "urls": [
+                        {
+                            "url": "http://t.co/7BJpqB38iU",
+                            "expanded_url": "http://neilgoodman.net",
+                            "display_url": "neilgoodman.net",
+                            "indices": [
+                                0,
+                                22
+                            ]
+                        }
+                    ]
+                },
+                "description": {
+                    "urls": []
+                }
+            },
+            "protected": false,
+            "followers_count": 176,
+            "friends_count": 109,
+            "listed_count": 12,
+            "created_at": "Sun Oct 26 23:02:44 +0000 2008",
+            "favourites_count": 0,
+            "utc_offset": -18000,
+            "time_zone": "Central Time (US & Canada)",
+            "geo_enabled": true,
+            "verified": false,
+            "statuses_count": 1368,
+            "lang": "en",
+            "contributors_enabled": false,
+            "is_translator": false,
+            "profile_background_color": "363533",
+            "profile_background_image_url": "http://a0.twimg.com/profile_background_images/391432877/bg_body.png",
+            "profile_background_image_url_https": "https://si0.twimg.com/profile_background_images/391432877/bg_body.png",
+            "profile_background_tile": true,
+            "profile_image_url": "http://a0.twimg.com/profile_images/2655121544/a7b5ee123d626e632f1412da6f938a08_normal.jpeg",
+            "profile_image_url_https": "https://si0.twimg.com/profile_images/2655121544/a7b5ee123d626e632f1412da6f938a08_normal.jpeg",
+            "profile_link_color": "2D75B9",
+            "profile_sidebar_border_color": "FFFFFF",
+            "profile_sidebar_fill_color": "FFFFFF",
+            "profile_text_color": "000000",
+            "profile_use_background_image": true,
+            "default_profile": false,
+            "default_profile_image": false,
+            "following": false,
+            "follow_request_sent": false,
+            "notifications": false
+        },
+        "geo": null,
+        "coordinates": null,
+        "place": null,
+        "contributors": null,
+        "retweet_count": 0,
+        "favorite_count": 0,
+        "entities": {
+            "hashtags": [],
+            "symbols": [],
+            "urls": [
+                {
+                    "url": "http://t.co/Y7wey0TPkl",
+                    "expanded_url": "http://neilgoodman.net/article/connect-user-tweets-npm-release",
+                    "display_url": "neilgoodman.net/article/connec…",
+                    "indices": [
+                        51,
+                        73
+                    ]
+                }
+            ],
+            "user_mentions": []
+        },
+        "favorited": false,
+        "retweeted": false,
+        "possibly_sensitive": false,
+        "lang": "en"
+    }
+]
