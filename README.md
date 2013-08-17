@@ -36,6 +36,7 @@ $(function () {
 
 - _render_: Render the tweets into the attached DOM element.
 - _refresh_: Fetch the tweets using the `url` setting and then call `render`
+- `$.renderTweets.parseTweet`: A utility method to parse a tweet and turn @names, #tags, and links into HTML. This can be used inside of template helpers. 
 
 # Events
 
